@@ -10,5 +10,5 @@ class Logistica(Base):
     nombreEncargado = Column(String(50))
     correoEncargado = Column(String(50))  
     contactoEncargado = Column(String(50))  
-    fecha = Column(Date)
-    devolucion = Column(String(50))
+    fechaEnvio = Column(Date)
+    Descripcion = Column(String(50))
